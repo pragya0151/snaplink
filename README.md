@@ -25,7 +25,16 @@ A full-stack URL shortening service built with Java, Spring Boot, MySQL, and Red
 | 🐳 Docker | One-command deployment with Docker Compose |
 
 ---
+## 📸 Screenshots
 
+### URL Shortener
+![Main UI](screenshots/screenshot1.png)
+
+### QR Code & Recent URLs
+![QR Code](screenshots/screenshot2.png)
+
+### Analytics Dashboard
+![Analytics](screenshots/screenshot3.png)
 ## 🏗️ System Architecture
 
 ```
