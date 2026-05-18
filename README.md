@@ -6,8 +6,11 @@ A full-stack URL shortening service built with Java, Spring Boot, MySQL, and Red
 
 ## 🚀 Live Demo
 
-> 🔗 [snaplink.up.railway.app](https://snaplink.up.railway.app) *(Coming soon)*  
-> 📖 [API Documentation (Swagger)](https://snaplink.up.railway.app/swagger-ui.html)
+> ## 🚀 Live Demo
+
+> 🔗 [snaplink-production-adc9.up.railway.app](https://snaplink-production-adc9.up.railway.app)  
+> 📖 [API Documentation](https://snaplink-production-adc9.up.railway.app/swagger-ui.html)
+> 
 
 ---
 
