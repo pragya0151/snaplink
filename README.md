@@ -37,23 +37,7 @@ A full-stack URL shortening service built with Java, Spring Boot, MySQL, and Red
 ![Analytics](screenshots/screenshot3.png)
 ## 🏗️ System Architecture
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                     React/HTML Frontend                  │
-│              (Shorten, Analytics, QR Code)               │
-└─────────────────────┬───────────────────────────────────┘
-                      │ HTTP
-┌─────────────────────▼───────────────────────────────────┐
-│                 Spring Boot API                          │
-│         Rate Limiting → JWT → Controllers                │
-└──────┬──────────────┬──────────────────┬────────────────┘
-       │              │                  │
-┌──────▼──────┐ ┌─────▼──────┐ ┌────────▼───────┐
-│    MySQL    │ │   Redis    │ │   Analytics    │
-│  (URLs DB)  │ │  (Cache)   │ │  (Click data)  │
-└─────────────┘ └────────────┘ └────────────────┘
-```
-
+![Architecture](screenshots/architecture.png)
 ---
 
 ## 🛠️ Tech Stack
@@ -215,7 +199,7 @@ src/
 
 ## 👩‍💻 About
 
-Built by **Pragya** — 4th year CS student targeting FAANG SWE roles.
+Built by **Pragya** — Final year student | Full-Stack & Backend Developer
 
 This project was built to demonstrate:
 - Production-grade backend patterns (caching, rate limiting, containerization)
